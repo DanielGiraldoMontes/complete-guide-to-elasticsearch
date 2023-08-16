@@ -37,3 +37,13 @@ PUT /access-logs-2020-01-01
 ```
 GET /access-logs-2020-01-01
 ```
+
+## Modify the settings while creating a new index
+```
+GET /access-logs-2020-01-02
+{
+  "settings": {
+      "number_of_shards": 3
+    }
+}
+```
